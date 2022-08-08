@@ -1,0 +1,13 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  padding: 46px 38px;
+  background-image: url('../../assets/bg-dino.svg'), url('../../assets/bg.jpg');
+  background-size: min(885px, 85vw) 675px, cover;
+  background-position: left, center;
+  background-origin: content-box, border-box;
+  background-repeat: no-repeat, no-repeat;
+}
