@@ -4,6 +4,7 @@ import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import LoginForm from './pages/authFormLayout/LoginForm';
 import RestorePasswordForm from './pages/authFormLayout/RestorePasswordForm';
 import { useEffect } from 'react';
+import TodosPage from './pages/todos';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -41,6 +42,8 @@ const App = () => {
           </AuthFormLayout>
         }
       />
+
+      <Route path='/todos' element={<TodosPage />} />
     </Routes>
   );
 };

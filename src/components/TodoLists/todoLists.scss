@@ -1,0 +1,17 @@
+ul.todo-lists {
+  li {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: 8px;
+      top: 10px;
+      content: '';
+      width: 14px;
+      height: 14px;
+      background-image: url('../../assets/icons/list.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
